@@ -1,0 +1,35 @@
+
+.Contenedor2
+{
+    padding: 0.5em;
+    border: 0.5px solid black;
+}
+
+.Subcontenedor
+{
+    border-width: 0.5px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #333;
+    margin: 0.5em;
+    height: 30%;
+    width: calc(33% - 1em);
+    display: inline-block;
+}
+
+
+
+.Subcontenedor:nth-child(5n)
+{
+    background-color: green;
+}
+
+.Subcontenedor:nth-child(n+7)
+{
+    background-color: blue;
+    display: inline-block;
+}
+.Subcontenedor:nth-child(2n)
+{
+    display: none;
+}

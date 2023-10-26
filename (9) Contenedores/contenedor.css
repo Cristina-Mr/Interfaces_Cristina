@@ -1,0 +1,44 @@
+.Contenedor
+{
+    padding: 0.5em;
+    border: 0.5px solid black;
+
+}
+
+.Subcontenedor1
+{
+    border-width: 0.5px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #333;
+    margin: 0.5em;
+    height: 30%;
+    width: calc(33% - 1em);
+    display: inline-block;
+}
+
+.Subcontenedor2
+{
+    border-width: 0.5px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #333;
+    margin: 0.5em;
+    height: 30%;
+    width: calc(33% - 1em);
+    background-color: green;
+    display: inline-block;
+}
+
+.Subcontenedor3
+{
+    border-width: 0.5px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #333;
+    margin: 0.5em;
+    height: 30%;
+    width: calc(33% - 1em);
+    background-color: blue;
+    display: inline-block;
+}
